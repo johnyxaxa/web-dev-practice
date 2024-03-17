@@ -1,32 +1,45 @@
-* {
-    margin: 0;
+/* Below rule *{} removes all the space i.e margin & padding from all elements...*/
+* { 
+    margin: 0;  
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Always link CSS file to the HTML file. */
+/* Make sure to link CSS file to the HTML file if you want to avoid wondering why your style is not working. */
 
 .content-one {
     background-color:orange;
+    border: 2px solid black;
     padding: 20px;
     display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    align-content: center;
+    /* flex-direction: row-reverse; applying this would modify justify, align -contents */
 }
 
+/* justify-content moves the child divs either to left or right (flex start or end) */
 .content-child-one {
     background-color: aqua;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
+    border: 2px solid white;
 }
 
 .content-two {
     background-color:greenyellow;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; rule below reverses this*/
+    flex-direction: column-reverse;
+    gap: 60px;
 }
 
 .content-child-two {
     background-color: aquamarine;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
+    border: 2px solid white;
 }
