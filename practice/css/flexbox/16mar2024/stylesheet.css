@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Always link CSS file to the HTML file. */
+
+.content-one {
+    background-color:orange;
+    padding: 20px;
+    display: flex;
+}
+
+.content-child-one {
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+}
+
+.content-two {
+    background-color:greenyellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-child-two {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}
