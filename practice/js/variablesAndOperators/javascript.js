@@ -13,3 +13,14 @@
 
 // console.log(alertMessage)
 //Changing the values of the variables
+
+// Tasks------------------------------------------------------------------------------------
+
+let userName, admin;
+
+userName = "John";
+admin=userName;
+
+alert (admin)
+
+
