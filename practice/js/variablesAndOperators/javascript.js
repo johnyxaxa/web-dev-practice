@@ -21,6 +21,12 @@ let userName, admin;
 userName = "John";
 admin=userName;
 
-alert (admin)
+console.log(admin)
+
+// Giving name
+
+let ourPlanetName = "Earth";
+
+let currentVisitorUserName = "x";
 
 
